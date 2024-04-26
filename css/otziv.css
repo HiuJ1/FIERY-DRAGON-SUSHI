@@ -1,0 +1,75 @@
+body {
+	font-family: Trebuchet MS, sans-serif;
+	margin-top: 10vh;
+	background-color: #B33131;
+}
+.hopes {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	margin-bottom: 20px;
+	font-size: 22px;
+	font-weight: 1000;
+	color: #B33131;
+}
+.form-container {
+	font-family: Trebuchet MS, sans-serif;
+	width: 500px;
+	margin: 0 auto;
+	height: 400px;
+	padding: 20px;
+	background-color: #100E10;
+	color: #B33131;
+	border-radius: 5px;
+}
+.form-container input,
+.form-container textarea {
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 96%;
+}
+label {
+	margin-bottom: 5px;
+	color: #B33131;
+}
+textarea {
+	height: 100px;
+	resize: vertical;
+}
+textarea::placeholder {
+	white-space: none;
+}
+#name,
+#email,
+#message {
+	border: 0;
+	border-radius: 1vh;
+	padding: 1vh 2vh;
+}
+#send1 {
+	margin-left: 190px;
+	padding: 10px;
+	background-color: #100E10;
+	color: #B33131;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	text-decoration: none;
+}
+button {
+	padding: 10px;
+	background-color: #100E10;
+	color: #B33131;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	text-decoration: none;
+	margin-top: 10px;
+	background-color: #100E10;
+	color: #B33131;
+	border: 0;
+	padding: 0.8vh 0;
+}
+button:hover {
+	cursor: pointer;
+}

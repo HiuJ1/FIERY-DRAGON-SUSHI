@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/otziv.css">
+	<title>Отзывы</title>
+</head>
+<body>
+	<div class="form-container">
+		<div class="hopes">Отзывы посетителей</div>
+		<label for="name">Имя:</label><br />
+		<input type="text" id="name"><br />
+		<label for="email">Почта(email/gmail/mail.ru):</label><br />
+		<input type="email" id="email" placeholder="example@gmail.com"><br />
+		<label for="message">Отзыв:</label><br />
+		<textarea id="message" placeholder="Напишите что то хорошее о нашем продукте!"></textarea><br />
+		<button onclick="submitForm()">Отправить</button><br /><br>
+		<a id="send1" type="button" href="index.html">Главное меню</a>
+	</div>
+	<script>
+		function submitForm() {
+			var name = document.getElementById('name').value;
+			var message = document.getElementById('message').value;
+			document.getElementById('name').value = '';
+			document.getElementById('message').value = '';
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+	background-color: #B33131;
+	font-family: Trebuchet MS, sans-serif;
+	margin: 20px;
+}
+#send1 {
+	margin-left: 100px;
+	padding: 10px;
+	background-color: #100E10;
+	color: #B33131;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	text-decoration: none;
+	font-family: Trebuchet MS, sans-serif;
+}
+.form-container {
+	display: flex;
+	align-items: center;
+	font-family: Trebuchet MS, sans-serif;
+	width: 900px;
+	height: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #100E10;
+	color: #B33131;
+	border-radius: 5px;
+}
+#menka {
+	margin-left: 100px;
+}
+#kar {
+	opacity: 0.8;
+	border-radius: 5px;
+	width: 300px;
+	height: 400px;
+}
+.text {
+	flex: 1;
+}
+.button-1 {
+	background-color: #100E10;
+	color: #B33131;
+	border: none;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+.container {
+	margin-top: 20px;
+	padding: 20px;
+}

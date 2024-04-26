@@ -1,0 +1,41 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 75vh;
+	background-color: #100E10;
+	border-radius: 4vh;
+	margin: 0 auto;
+	padding: 5vh 20vh;
+	height: 350px;
+}
+#send1 {
+	margin-left: 150px;
+	padding: 10px;
+	background-color: #100E10;
+	color: #B33131;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+	text-decoration: none;
+}
+#cont {
+	margin: 0 auto;
+	color: #B33131;
+}
+body {
+	font-family: Trebuchet MS, sans-serif;
+	margin-top: 10vh;
+	background-color: #B33131;
+}
+#infa {
+	margin-top: 10px;
+	margin: 0 auto;
+	text-decoration: none;
+	border-radius: 5px;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 20px;
+	color: #B33131;
+	text-decoration: none;
+	width: 400px;
+}

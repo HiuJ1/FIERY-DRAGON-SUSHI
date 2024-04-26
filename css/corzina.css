@@ -1,0 +1,60 @@
+body {
+	font-family: Trebuchet MS, sans-serif;
+	margin-top: 10vh;
+	background-color: #B33131;
+}
+.nazv{
+	margin-left: 305px;
+}
+#send1 {
+	margin-left: 520px;
+	padding: 10px;
+	background-color: #100E10;
+	color: #B33131;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+	text-decoration: none;
+}
+.doba{
+	margin-left: 280px;
+	border: 0;
+	background-color: #100E10;
+	color: #B33131;
+}
+.product {
+	margin: 10px;
+	padding: 10px;
+	border: 0;
+	background-color: #100E10;
+	color: #B33131;
+}
+#verh{
+	text-align: center;
+}
+#topSection,
+#bottomSection {
+	text-decoration: none;
+	border-radius: 10px;
+	margin: 0 auto;
+	width: 130vh;
+	margin-top: 20px;
+	padding: 10px;
+	border: 0;
+	background-color: #100E10;
+	color: #B33131;
+}
+#ocist{
+	margin-left: 150px;
+	border: 0;
+	background-color: #100E10;
+	color: #B33131;
+}
+#kupit{
+	text-decoration: none;
+	font-size: 14px;
+	margin-left: 250px;
+	border: 0;
+	background-color: #100E10;
+	color: #B33131;
+}

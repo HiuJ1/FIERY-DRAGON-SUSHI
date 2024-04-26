@@ -1,0 +1,197 @@
+body {
+	background-image: url(../img/fon.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+}
+#nazv{
+	font-family: Trebuchet MS, sans-serif;
+	padding-top: 30px;
+	padding-left: 20px;
+	display: inline-block;
+	text-decoration: none;
+	color: #B33131;
+}
+#podval{
+	margin-top: -20px;
+	background-color: #17161A;
+	width: 100%;
+	height: 200px;
+}
+#bubl1{
+	border-radius: 5px;
+	text-align: left;
+	background-color: #100E10;
+	position: absolute;
+	top: 900px;
+	right: 50px;
+	padding: 10px 20px;
+	width: 450px;
+	height: 150px;
+	font-family: Trebuchet MS, sans-serif;
+	display: inline-block;
+	color: #B33131;
+}
+#bubl2 {
+	border-radius: 5px;
+	text-align: left;
+	background-color: #100E10;
+	position: absolute;
+	top: 1100px;
+	right: 50px;
+	padding: 10px 20px;
+	width: 450px;
+	height: 150px;
+	font-family: Trebuchet MS, sans-serif;
+	display: inline-block;
+	color: #B33131;
+}
+#bubl3 {
+	border-radius: 5px;
+	text-align: left;
+	background-color: #100E10;
+	position: absolute;
+	top: 1300px;
+	right: 50px;
+	padding: 10px 20px;
+	width: 450px;
+	height: 150px;
+	font-family: Trebuchet MS, sans-serif;
+	display: inline-block;
+	color: #B33131;
+}
+#bubl4 {
+	border-radius: 5px;
+	text-align: left;
+	background-color: #100E10;
+	position: absolute;
+	top: 1100px;
+	right: 600px;
+	padding: 10px 20px;
+	width: 450px;
+	height: 350px;
+	font-family: Trebuchet MS, sans-serif;
+	display: inline-block;
+	color: #B33131;
+}
+#drag{
+	width: 100%;
+}
+.set1{
+	font-family: Trebuchet MS, sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	color: #B33131;
+	position: absolute;
+}
+.set2 {
+	font-family: Trebuchet MS, sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	color: #B33131;
+	position: absolute;
+}
+.set3 {
+	font-family: Trebuchet MS, sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	color: #B33131;
+	position: absolute;
+}
+.set4 {
+	color: #B33131;
+	text-decoration: none;
+	position: absolute;
+}
+.button1 {
+	font-family: Trebuchet MS, sans-serif;
+	text-decoration: none;
+	border-radius: 5px;
+	text-align: left;
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 0 0;
+	text-decoration: none;
+	background-color: #B33131;
+	color: #000000;
+	position: absolute;
+	top: 500px;
+	left: 280px;
+}
+.button2 {
+	font-family: Trebuchet MS, sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+	top: 20px;
+	right: 50px;
+}
+.button3 {
+	font-family: Trebuchet MS, sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	color: #000000;
+	position: absolute;
+	top: 20px;
+	right: 175px;
+}
+.button4 {
+	font-family: Trebuchet MS, sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	color: #B33131;
+	position: absolute;
+	top: 20px;
+	right: 350px;
+}
+.button0 {
+	text-decoration: none;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 10px 30px;
+	background-color: #B33131;
+	color: #000000;
+	position: absolute;
+	width: 20pz;
+	top: 20px;
+	left: 20px;
+}
+.button5{
+	font-family: Trebuchet MS, sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	color: #B33131;
+	position: absolute;
+	top: 20px;
+	right: 450px;
+}
+#tutu{
+	width: 50px;
+}
+#tutu3 {
+	width: 250px;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+#tutu2 {
+	text-decoration: none;
+	border-radius: 5px;
+	text-align: left;
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 0 0;
+	text-decoration: none;
+	background-color: #B33131;
+	position: absolute;
+	width: 100px;
+	top: 1575px;
+	right: 50px;
+}
+.pheader{
+	padding: 0;
+	margin: 0;
+}

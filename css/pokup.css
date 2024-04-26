@@ -1,0 +1,30 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 75vh;
+	background-color: #100E10;
+	border-radius: 4vh;
+	margin: 0 auto;
+	padding: 5vh 20vh;
+	height: 200px;
+}
+#send1 {
+	margin-left: 150px;
+	padding: 10px;
+	background-color: #100E10;
+	color: #B33131;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+	text-decoration: none;
+}
+#cont {
+	text-align: center;
+	margin: 0 auto;
+	color: #B33131;
+}
+body {
+	font-family: Trebuchet MS, sans-serif;
+	margin-top: 10vh;
+	background-color: #B33131;
+}

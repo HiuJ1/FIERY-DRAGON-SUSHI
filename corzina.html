@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/corzina.css">
+	<title>Корзина</title>
+</head>
+
+<body>
+	
+	<div id="topSection">
+		<h2 id="verh">Список товаров: </h2>
+		<div class="product">
+			<p>__________________________________________________________________________________</p><br>
+			<a class="nazv">Сет "Инь-Янь"</a>
+			<p>Обновленная версия любимого сета. Идеально подойдёт для романтического ужина, сет заряжен на любовь и
+				гармонию.
+			</p>
+			<button class="doba" onclick="moveToBottom(this)">Добавить в корзину</button><br>
+			<p>__________________________________________________________________________________</p>
+		</div>
+
+		<div class="product">
+			<p>__________________________________________________________________________________</p><br>
+			<a class="nazv">Сет "Огонь"</a>
+			<p>Запечённый сет, название которого говорит само за себя... Огонь как хорош, попробуй! Выбери соус, с которым
+				приготовят
+				твой сет: с белым или спайси (острым) соусом.</p>
+			<button class="doba" onclick="moveToBottom(this)">Добавить в корзину</button><br>
+			<p>__________________________________________________________________________________</p>
+		</div>
+		<div class="product">
+			<p>__________________________________________________________________________________</p><br>
+			<a class="nazv">Сет "Икари"</a>
+			<p>WOW! Обновленная версия любимого сета, теперь больше разнообразия вкусов. Выбери соус, с которым приготовят
+				твой сет:
+				с белым или спайси (острым) соусом.</p>
+			<button class="doba" onclick="moveToBottom(this)">Добавить в корзину</button><br>
+			<p>__________________________________________________________________________________</p>
+		</div>
+		<div class="product">
+			<p>__________________________________________________________________________________</p><br>
+			<a class="nazv">Сет "Ронин"</a>
+			<p>Сытный сет для настоящих мужчин, чтобы поддерживать силы на ежедневные свершения!</p>
+			<button class="doba" onclick="moveToBottom(this)">Добавить в корзину</button><br>
+			<p>__________________________________________________________________________________</p>
+		</div>
+	</div>
+	<div id="bottomSection">
+		<h2 id="verh">Корзина</h2>
+		<a id="kupit" href="pokup.html">Купить</a>
+		<button id="ocist" onclick="moveToTop()">Очистить корзину</button>
+	</div>
+	<a id="send1" type="button" href="index.html">Главное меню</a>
+	<script>
+		function moveToTop() {
+			let products = document.getElementById('bottomSection').getElementsByClassName('product');
+			if (products.length > 0) {
+				let product = products[products.length - 1];
+				product.style.display = 'none';
+				document.getElementById('topSection').appendChild(product);
+				product.style.display = 'block';
+			}
+		}
+		function moveToBottom(button) {
+			let product = button.parentNode;
+			product.style.display = 'none';
+			document.getElementById('bottomSection').appendChild(product);
+			product.style.display = 'block';
+		}
+	</script>
+</body>
+
+</html>

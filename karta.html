@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="css/karta.css" />
+</head>
+
+<body>
+	<form class="form-container">
+		<p id="message">Зарегистрировать карту</p>
+		<label for="name">Имя:</label><br />
+		<input id="name" type="text" onchange="this.value = this.value.toUpperCase()" /><br />
+		<label for="secondname">Фамилия:</label><br />
+		<input id="secondname" onchange="this.value = this.value.toUpperCase()" type="text" /><br />
+		<label for="number">Номер:</label><br />
+		<input id="number" type="text" placeholder="+7 (---) --- -- --" /><br />
+		<label for="age">Возраст:</label><br />
+		<input id="age" type="text" /><br />
+		<input id="send" type="button" onclick="Submit()" value="Создать карту" />
+		<input id="send" type="button" onclick="clearform()" value="Очистить форму" />
+		<a id="send1" type="button" href="index.html">Главное меню</a>
+	</form>
+	<script type="text/javascript" src="js/karta.js"></script>
+</body>
+
+</html>
